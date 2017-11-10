@@ -5,3 +5,11 @@
 #
 #   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
 #   Character.create(name: 'Luke', movie: movies.first)
+users = User.create([
+                        {first_name:'Pascal', last_name:'bestel', email:'pascal@unionswiss.com', password:'1234'},
+                    ])
+
+countries = Country.create([
+                               {iso_code:'ZA', name:'South Africa'},
+                               {iso_code:'US', name:'United States'}
+                           ])
