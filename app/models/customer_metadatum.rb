@@ -1,0 +1,2 @@
+class CustomerMetadatum < ApplicationRecord
+end

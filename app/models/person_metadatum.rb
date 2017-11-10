@@ -1,0 +1,2 @@
+class PersonMetadatum < ApplicationRecord
+end

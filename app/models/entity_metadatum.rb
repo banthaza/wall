@@ -1,0 +1,2 @@
+class EntityMetadatum < ApplicationRecord
+end

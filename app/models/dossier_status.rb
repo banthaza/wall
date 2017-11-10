@@ -1,0 +1,2 @@
+class DossierStatus < ApplicationRecord
+end
