@@ -1,2 +1,2 @@
-class Core::Country < ApplicationRecord
+class Country < ApplicationRecord
 end
