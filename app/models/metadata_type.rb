@@ -1,2 +1,2 @@
-class ContactMetadataType < ApplicationRecord
+class MetadataType < ApplicationRecord
 end

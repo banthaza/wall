@@ -1,2 +1,0 @@
-class MetaDataType < ApplicationRecord
-end

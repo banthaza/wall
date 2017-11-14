@@ -1,8 +1,13 @@
 Rails.application.routes.draw do
 
+
+
+
   namespace :api do
     namespace :v1 do
-      namespace :user do
+      resource :country do
+      end
+      resource :user do
         post 'authenticate'
       end
     end
@@ -17,4 +22,5 @@ Rails.application.routes.draw do
 
   get "main/index"
   root :to => 'main#index'
+
 end
