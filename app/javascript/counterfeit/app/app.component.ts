@@ -1,8 +1,9 @@
 import { Component } from '@angular/core';
+import template from './app.component.html'
 
 @Component({
   selector: 'counterfeit-app',
-  template: `<h1>Hello {{name}} What else</h1>`
+  template: template
 })
 export class AppComponent {
   name = 'Counterfeit Tracker!';
