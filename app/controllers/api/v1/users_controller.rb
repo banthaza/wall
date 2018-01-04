@@ -11,4 +11,15 @@ class Api::V1::UsersController < BaseApiController
     end
   end
 
+  def index
+    command = GetUsers.call()
+
+    if command.success?
+      render json: { data: command.result }
+    else
+      render json: { error: command.errors }, status: :unauthorized
+    end
+  end
+
+
 end

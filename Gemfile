@@ -56,6 +56,7 @@ gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 #MY GEMS
 gem 'jwt'
 gem 'simple_command'
+gem 'bootstrap-sass', '~> 3.2.0'
 
 group :development do
   gem 'annotate'

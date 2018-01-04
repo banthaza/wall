@@ -1,0 +1,3 @@
+class EntityRole < ApplicationRecord
+
+end

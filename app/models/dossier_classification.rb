@@ -1,0 +1,2 @@
+class DossierClassification < ApplicationRecord
+end

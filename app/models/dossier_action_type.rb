@@ -1,0 +1,3 @@
+class DossierActionType < ApplicationRecord
+
+end

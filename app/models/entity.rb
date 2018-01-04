@@ -1,3 +1,5 @@
 class Entity < ApplicationRecord
-  has_many :Metadataum , class_name: 'EntityMetadatum'
+  has_one :Type, class_name: 'EntityType'
+  has_many :Metadatum , class_name: 'EntityMetadatum'
+
 end
