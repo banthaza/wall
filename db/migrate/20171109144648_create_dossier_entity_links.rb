@@ -1,14 +1,10 @@
-class CreateDossiers < ActiveRecord::Migration[5.1]
+class CreateDossierEntityLinks < ActiveRecord::Migration[5.1]
   def change
-    create_table :dossiers do |t|
-      t.integer :country_id
-      t.integer :status_id
-      t.integer :classification_id
-      t.string :name
+    create_table :dossier_entity_links do |t|
+      t.integer :dossier_id
+      t.integer :entity_id
+      t.integer :link_type_id
       t.string :background
-      t.string :attorney
-      t.string :reported_by
-      t.datetime :next_due_date
       t.timestamps
     end
   end

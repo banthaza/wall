@@ -40,13 +40,19 @@ dossier_statuses = DossierStatus.create([
                                             { name: 'Reopened' }
                                         ])
 
-dossier_action_Types = DossierActionType.create([
+dossier_action_types = DossierActionType.create([
                                             { name: 'C&D' },
                                             { name: 'Civil' },
                                             { name: 'Criminal' },
                                             { name: 'Civil & Criminal' },
                                             { name: 'Pre-Action' }
                                         ])
+dossier_entity_link_types = DossierActionType.create([
+                                                    { name: 'Infringer' },
+                                                    { name: 'Consignor/Consignee' },
+                                                    { name: 'Connected Party' }
+                                                ])
+
 entity_types = EntityType.create(
     [{ name: 'Natural Person'}, { name: 'Company'}, {name:'Organisation'},{name:'Unknown'} ]
 )
